@@ -1,0 +1,37 @@
+
+table {
+  border-spacing: 12px;
+}
+
+th {
+background-color: bisque;
+color:black ;
+border-radius: 5px;
+padding: 10px;
+}
+
+td {
+    border-bottom: 1px solid white;
+    border-collapse: collapse;
+    color: aliceblue;
+  }
+
+body{
+/* background-color: darkgreen; */
+align-content: center;
+height: 100%;
+width: 100%;
+
+display: table-cell;
+vertical-align: middle;
+
+}  
+
+html {
+  display: table;
+  margin: auto;
+}
+
+div.image {
+  position:fixed;
+}
